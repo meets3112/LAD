@@ -1,0 +1,19 @@
+train_test_split.py
+
+binarization on training data
+
+support set on binarized train data
+
+adding binary features to suporty set
+
+add compliment of all features to support set absent_items.py
+
+rules making - main.py on support
+
+weight gen -  train data is non binarized
+
+testing - test data is non binarized
+
+results.py and lineplot
+
+plot
