@@ -1,0 +1,134 @@
+rule,normalized_support
+Glucosecp >= 99.5,0.6666666666666666
+DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.5
+Glucosecp >= 128.5,0.5
+Glucosecp >= 116.5,0.5
+DiabetesPedigreeFunctioncp >= 0.3435,0.5
+DiabetesPedigreeFunctioncp >= 0.4545 & Glucosecp >= 128.5,0.3333333333333333
+SkinThicknesscp >= 13.5,0.3333333333333333
+DiabetesPedigreeFunctioncp >= 0.4545,0.3333333333333333
+SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.3333333333333333
+SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.3333333333333333
+SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.3333333333333333
+DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 128.5,0.3333333333333333
+BMIcp >= 26.35,0.3333333333333333
+DiabetesPedigreeFunctioncp >= 0.4545 & Glucosecp >= 116.5,0.3333333333333333
+DiabetesPedigreeFunctioncp >= 0.4545 & Glucosecp >= 99.5,0.3333333333333333
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.3333333333333333
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.3333333333333333
+Glucosecp >= 116.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.3333333333333333
+Glucosecp >= 128.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.3333333333333333
+BMIcp >= 26.35 & DiabetesPedigreeFunctioncp >= 0.3435,0.3333333333333333
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.3333333333333333
+BMIcp >= 26.35 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.3333333333333333
+BMIcp >= 26.35 & Glucosecp >= 99.5,0.3333333333333333
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.3333333333333333
+BloodPressurecp >= 69.0 & DiabetesPedigreeFunctioncp >= 0.4545 & Glucosecp >= 116.5,0.1666666666666666
+BloodPressurecp >= 69.0 & DiabetesPedigreeFunctioncp >= 0.4545 & Glucosecp >= 128.5,0.1666666666666666
+BloodPressurecp >= 69.0 & Glucosecp >= 128.5,0.1666666666666666
+BloodPressurecp >= 69.0 & DiabetesPedigreeFunctioncp >= 0.4545 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BloodPressurecp >= 69.0 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BloodPressurecp >= 69.0 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 128.5,0.1666666666666666
+BloodPressurecp >= 69.0 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BloodPressurecp >= 69.0 & Glucosecp >= 99.5,0.1666666666666666
+BloodPressurecp >= 69.0 & Glucosecp >= 116.5,0.1666666666666666
+BloodPressurecp >= 69.0 & Glucosecp >= 116.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BloodPressurecp >= 69.0 & Glucosecp >= 128.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Agecp >= 40.5,0.1666666666666666
+BloodPressurecp >= 69.0 & DiabetesPedigreeFunctioncp >= 0.4545,0.1666666666666666
+Agecp >= 44.5 & Glucosecp >= 128.5,0.1666666666666666
+BMIcp >= 34.05,0.1666666666666666
+BMIcp >= 30.25 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 30.25 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BMIcp >= 30.25 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 30.25 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 30.25 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BMIcp >= 30.25 & SkinThicknesscp >= 13.5,0.1666666666666666
+BMIcp >= 30.25 & Insulincp >= 131.0 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & Insulincp >= 131.0 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & Insulincp >= 131.0 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & Insulincp >= 131.0 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BMIcp >= 34.05 & Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BMIcp >= 34.05 & SkinThicknesscp >= 13.5,0.1666666666666666
+BMIcp >= 34.05 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BloodPressurecp >= 69.0,0.1666666666666666
+BMIcp >= 30.25 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+Agecp >= 44.5,0.1666666666666666
+Agecp >= 44.5 & Glucosecp >= 116.5,0.1666666666666666
+Agecp >= 40.5 & Glucosecp >= 116.5,0.1666666666666666
+Agecp >= 31.5 & Glucosecp >= 128.5,0.1666666666666666
+SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.1666666666666666
+SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 128.5,0.1666666666666666
+Agecp >= 31.5,0.1666666666666666
+SkinThicknesscp >= 13.5 & Glucosecp >= 116.5,0.1666666666666666
+SkinThicknesscp >= 13.5 & Glucosecp >= 116.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Agecp >= 31.5 & Glucosecp >= 99.5,0.1666666666666666
+Agecp >= 40.5 & Glucosecp >= 128.5,0.1666666666666666
+Agecp >= 44.5 & Glucosecp >= 99.5,0.1666666666666666
+Agecp >= 31.5 & Glucosecp >= 116.5,0.1666666666666666
+Agecp >= 40.5 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & Insulincp >= 131.0 & SkinThicknesscp >= 13.5,0.1666666666666666
+BMIcp >= 30.25 & Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & BMIcp >= 26.35 & Glucosecp >= 116.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & BMIcp >= 26.35 & Glucosecp >= 128.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & BMIcp >= 26.35,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 116.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & SkinThicknesscp >= 13.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 26.35,0.1666666666666666
+Insulincp >= 131.0,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & SkinThicknesscp >= 13.5 & Glucosecp >= 116.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 26.35 & Glucosecp >= 128.5,0.1666666666666666
+BMIcp >= 26.35 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 128.5,0.1666666666666666
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 116.5,0.1666666666666666
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 116.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.1666666666666666
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 128.5,0.1666666666666666
+BMIcp >= 26.35 & Glucosecp >= 116.5,0.1666666666666666
+BMIcp >= 26.35 & Glucosecp >= 116.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+DiabetesPedigreeFunctioncp >= 0.4545 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.1666666666666666
+BMIcp >= 26.35 & Glucosecp >= 128.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 30.25 & Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+BMIcp >= 30.25 & Insulincp >= 131.0,0.1666666666666666
+BMIcp >= 30.25,0.1666666666666666
+BMIcp >= 30.25 & Insulincp >= 131.0 & SkinThicknesscp >= 13.5,0.1666666666666666
+BMIcp >= 30.25 & Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 34.05 & Insulincp >= 131.0,0.1666666666666666
+BMIcp >= 30.25 & Insulincp >= 131.0 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+BMIcp >= 30.25 & Insulincp >= 131.0 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 34.05 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 34.05 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 34.05 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 34.05 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 34.05 & SkinThicknesscp >= 13.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 34.05,0.1666666666666666
+Insulincp >= 131.0 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 26.35 & DiabetesPedigreeFunctioncp >= 0.3435 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 26.35 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 34.05 & DiabetesPedigreeFunctioncp >= 0.3435,0.1666666666666666
+Insulincp >= 131.0 & BMIcp >= 34.05 & Glucosecp >= 99.5,0.1666666666666666
+Insulincp >= 131.0 & Glucosecp >= 99.5,0.1666666666666666
+Pregnanciescp >= 1.5,0.1666666666666666

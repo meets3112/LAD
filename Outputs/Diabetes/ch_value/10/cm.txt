@@ -1,0 +1,12 @@
+
+
+Classification Metrics
+Precision: 0.6166666666666667
+Recall: 0.6727272727272727
+F1 Score: 0.6434782608695652
+Accuracy: 0.7337662337662337
+
+Confusion Matrix (Actual vs Predicted)
+             Predicted 0     Predicted 1
+Actual 0     76              23
+Actual 1     18              37

@@ -1,0 +1,525 @@
+rule,normalized_support
+Pregnanciescp >= 2.5 & Glucosecp >= 99.5,1.0
+Pregnanciescp >= 1.5,1.0
+Pregnanciescp >= 2.5,1.0
+Glucosecp >= 99.5,1.0
+Pregnanciescp >= 1.5 & Glucosecp >= 99.5,1.0
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.75
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.75
+Agecp >= 44.5 & Pregnanciescp >= 1.5,0.75
+Agecp >= 44.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.75
+Agecp >= 44.5 & Pregnanciescp >= 2.5,0.75
+Agecp >= 44.5 & Glucosecp >= 99.5,0.75
+Agecp >= 44.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.75
+Agecp >= 44.5 & Pregnanciescp >= 5.5,0.75
+Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.75
+Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.75
+Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.75
+Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.75
+Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.75
+Agecp >= 44.5,0.75
+Agecp >= 44.5 & SkinThicknesscp >= 13.5,0.75
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.75
+Agecp >= 40.5 & SkinThicknesscp >= 13.5,0.75
+Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.75
+Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.75
+Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.75
+Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.75
+Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.75
+Agecp >= 40.5,0.75
+Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.75
+Glucosecp >= 116.5,0.75
+Glucosecp >= 128.5,0.75
+Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.75
+Glucosecp >= 116.5 & Pregnanciescp >= 2.5,0.75
+Glucosecp >= 116.5 & Pregnanciescp >= 1.5,0.75
+Agecp >= 31.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.75
+Agecp >= 31.5 & Pregnanciescp >= 2.5,0.75
+Agecp >= 31.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.75
+Agecp >= 31.5 & Pregnanciescp >= 1.5,0.75
+Agecp >= 31.5 & Glucosecp >= 99.5,0.75
+Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.75
+Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.75
+Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.75
+Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.75
+Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.75
+Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.75
+Agecp >= 31.5,0.75
+SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.75
+Pregnanciescp >= 5.5,0.75
+Pregnanciescp >= 5.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.75
+Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.75
+Pregnanciescp >= 5.5 & Agecp >= 31.5 & Glucosecp >= 99.5,0.75
+Pregnanciescp >= 5.5 & Agecp >= 31.5,0.75
+Pregnanciescp >= 5.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.75
+Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.75
+Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.75
+SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.75
+SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.75
+SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.75
+Agecp >= 40.5 & Pregnanciescp >= 2.5,0.75
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.75
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.75
+Agecp >= 40.5 & Pregnanciescp >= 5.5,0.75
+Agecp >= 40.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.75
+Agecp >= 40.5 & Glucosecp >= 99.5,0.75
+Agecp >= 40.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.75
+Agecp >= 40.5 & Pregnanciescp >= 1.5,0.75
+SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.75
+SkinThicknesscp >= 13.5,0.75
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.75
+BMIcp >= 26.35,0.75
+BMIcp >= 26.35 & Glucosecp >= 99.5,0.75
+BMIcp >= 26.35 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.75
+BMIcp >= 26.35 & Pregnanciescp >= 1.5,0.75
+BMIcp >= 26.35 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.75
+BMIcp >= 26.35 & Pregnanciescp >= 2.5,0.75
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 116.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 116.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5,0.5
+Agecp >= 44.5 & Glucosecp >= 128.5,0.5
+Agecp >= 44.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 44.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 44.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 44.5 & Glucosecp >= 116.5,0.5
+Agecp >= 44.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 44.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 44.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 44.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 44.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 44.5 & Glucosecp >= 116.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 44.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Agecp >= 44.5 & Glucosecp >= 116.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 40.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 40.5 & Glucosecp >= 116.5,0.5
+Agecp >= 40.5 & Glucosecp >= 128.5,0.5
+Agecp >= 40.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 40.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 40.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 40.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 40.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 40.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 116.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 40.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 40.5 & Glucosecp >= 116.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 40.5 & Glucosecp >= 116.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & BMIcp >= 26.35,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 31.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Agecp >= 31.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35,0.5
+Glucosecp >= 116.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Glucosecp >= 116.5 & BMIcp >= 26.35,0.5
+Glucosecp >= 128.5 & BMIcp >= 26.35,0.5
+Glucosecp >= 128.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5,0.5
+Glucosecp >= 128.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5,0.5
+Glucosecp >= 116.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 31.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 31.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5,0.5
+Glucosecp >= 128.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Glucosecp >= 116.5 & Agecp >= 31.5,0.5
+Glucosecp >= 128.5 & Agecp >= 31.5,0.5
+Glucosecp >= 128.5 & Agecp >= 31.5 & Pregnanciescp >= 2.5,0.5
+Glucosecp >= 128.5 & Agecp >= 31.5 & Pregnanciescp >= 1.5,0.5
+Glucosecp >= 116.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Glucosecp >= 128.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Glucosecp >= 128.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5,0.5
+Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Agecp >= 31.5 & Glucosecp >= 128.5,0.5
+Pregnanciescp >= 6.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 6.5,0.5
+Pregnanciescp >= 6.5 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 6.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 31.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & Agecp >= 31.5,0.5
+Pregnanciescp >= 5.5 & Glucosecp >= 128.5,0.5
+Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & Agecp >= 31.5,0.5
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5,0.5
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 5.5 & Glucosecp >= 116.5,0.5
+Glucosecp >= 116.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BMIcp >= 26.35 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+BMIcp >= 26.35 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+BMIcp >= 26.35 & Glucosecp >= 128.5,0.5
+Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 5.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Agecp >= 31.5,0.5
+Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+Glucosecp >= 116.5 & Agecp >= 31.5 & Pregnanciescp >= 1.5,0.5
+Glucosecp >= 116.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Glucosecp >= 116.5 & Agecp >= 31.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0,0.5
+Pregnanciescp >= 5.5 & BMIcp >= 26.35,0.5
+Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 5.5 & Agecp >= 31.5 & Glucosecp >= 128.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & Pregnanciescp >= 1.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & Pregnanciescp >= 2.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 26.35 & Agecp >= 31.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 44.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 44.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Agecp >= 40.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 40.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 44.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 40.5 & SkinThicknesscp >= 13.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Pregnanciescp >= 6.5 & Agecp >= 40.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 116.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 116.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 116.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & Agecp >= 31.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & Agecp >= 31.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & Agecp >= 31.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 31.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & Agecp >= 31.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & Agecp >= 31.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & Agecp >= 31.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 40.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Agecp >= 44.5 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & Agecp >= 31.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 44.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & BMIcp >= 26.35,0.5
+BMIcp >= 30.25 & Glucosecp >= 128.5 & Pregnanciescp >= 2.5,0.5
+BMIcp >= 30.25,0.5
+BMIcp >= 30.25 & Glucosecp >= 128.5,0.5
+BMIcp >= 30.25 & Glucosecp >= 128.5 & Pregnanciescp >= 1.5,0.5
+BMIcp >= 30.25 & Glucosecp >= 99.5,0.5
+BMIcp >= 30.25 & Pregnanciescp >= 2.5,0.5
+BMIcp >= 30.25 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BMIcp >= 30.25 & Pregnanciescp >= 1.5,0.5
+BMIcp >= 30.25 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0,0.5
+BMIcp >= 30.25 & Glucosecp >= 116.5,0.5
+BMIcp >= 30.25 & Glucosecp >= 116.5 & Pregnanciescp >= 2.5,0.5
+BMIcp >= 30.25 & Glucosecp >= 116.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 2.5 & Glucosecp >= 99.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5,0.5
+BloodPressurecp >= 69.0 & Agecp >= 40.5 & BMIcp >= 26.35 & SkinThicknesscp >= 13.5 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & Agecp >= 31.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & Agecp >= 31.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 116.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & Agecp >= 31.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 5.5 & Glucosecp >= 128.5 & SkinThicknesscp >= 13.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 1.5,0.5
+Insulincp >= 131.0 & Pregnanciescp >= 1.5 & Glucosecp >= 99.5,0.5

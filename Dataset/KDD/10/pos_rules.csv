@@ -1,0 +1,11 @@
+rule,normalized_support
+same_srv_rate,0.17193778301106133
+logged_in,0.12984120179824787
+logged_in & same_srv_rate,0.1273478556952203
+dst_host_same_srv_rate,0.11436563469088205
+same_srv_rate & dst_host_same_srv_rate,0.11336992411437376
+logged_in & dst_host_same_srv_rate,0.09296464006554868
+logged_in & same_srv_rate & dst_host_same_srv_rate,0.092929369663656
+count,0.05612606184258005
+same_srv_rate & count,0.05612606184258005
+srv_count,0.0449914672758498

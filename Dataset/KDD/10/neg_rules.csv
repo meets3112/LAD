@@ -1,0 +1,11 @@
+rule,normalized_support
+srv_serror_rate,0.1022979655897421
+dst_host_srv_serror_rate,0.10134442832183366
+dst_host_srv_serror_rate & srv_serror_rate,0.10080547247475496
+serror_rate,0.10079066599543962
+serror_rate & srv_serror_rate,0.1002457875566348
+dst_host_srv_serror_rate & serror_rate,0.09923006307560191
+dst_host_serror_rate,0.09919452752524507
+dst_host_srv_serror_rate & serror_rate & srv_serror_rate,0.09880955906304599
+srv_serror_rate & dst_host_serror_rate,0.09864964908644024
+dst_host_srv_serror_rate & dst_host_serror_rate,0.09863188131126181

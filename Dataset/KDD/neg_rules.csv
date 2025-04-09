@@ -1,0 +1,163 @@
+rule,normalized_support
+src_bytes,0.04134402183182671
+logged_in,0.034026948661095
+logged_in & same_srv_rate,0.03285007675251578
+count,0.12068906703053045
+count & srv_count,0.05940644721132526
+count & srv_count & same_srv_rate,0.05940644721132526
+count & same_srv_rate,0.12068906703053045
+count & dst_host_same_src_port_rate,0.08118710557734948
+count & dst_host_same_src_port_rate & same_srv_rate,0.08118710557734948
+srv_count,0.15034965034965034
+srv_count & serror_rate,0.03924611973392461
+srv_count & serror_rate & srv_serror_rate,0.03924611973392461
+srv_count & serror_rate & dst_host_srv_serror_rate,0.038683267951560636
+srv_count & serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.038683267951560636
+srv_count & srv_serror_rate,0.04212860310421286
+srv_count & rerror_rate,0.0411905168002729
+srv_count & rerror_rate & srv_rerror_rate,0.041173460685655805
+srv_count & rerror_rate & dst_host_srv_rerror_rate,0.0397919154016715
+srv_count & rerror_rate & dst_host_srv_rerror_rate & srv_rerror_rate,0.0397919154016715
+srv_count & srv_rerror_rate,0.07462050144976974
+srv_count & same_srv_rate,0.05940644721132526
+srv_count & dst_host_serror_rate,0.03501620330888624
+srv_count & dst_host_serror_rate & serror_rate,0.034453351526522256
+srv_count & dst_host_serror_rate & serror_rate & srv_serror_rate,0.034453351526522256
+srv_count & dst_host_serror_rate & serror_rate & dst_host_srv_serror_rate,0.034231622036500084
+srv_count & dst_host_serror_rate & serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.034231622036500084
+srv_count & dst_host_serror_rate & srv_serror_rate,0.03501620330888624
+srv_count & dst_host_serror_rate & dst_host_srv_serror_rate,0.03477741770424697
+srv_count & dst_host_serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.03477741770424697
+srv_count & dst_host_srv_serror_rate,0.04149752686338052
+srv_count & dst_host_srv_serror_rate & srv_serror_rate,0.04149752686338052
+srv_count & dst_host_srv_rerror_rate,0.07320484393655126
+srv_count & dst_host_srv_rerror_rate & srv_rerror_rate,0.07320484393655126
+serror_rate,0.580521917107283
+serror_rate & srv_serror_rate,0.5773835920177384
+serror_rate & dst_host_srv_serror_rate,0.5715333447040765
+serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.5691113764284496
+srv_serror_rate,0.5892034794473819
+rerror_rate,0.17207914037182329
+rerror_rate & srv_rerror_rate,0.17195974756950366
+rerror_rate & srv_rerror_rate & same_srv_rate,0.04388538290977315
+rerror_rate & same_srv_rate,0.04395360736824151
+rerror_rate & dst_host_srv_rerror_rate,0.17008357496162374
+rerror_rate & dst_host_srv_rerror_rate & srv_rerror_rate,0.17003240661777247
+rerror_rate & dst_host_srv_rerror_rate & srv_rerror_rate & same_srv_rate,0.04209449087497868
+rerror_rate & dst_host_srv_rerror_rate & same_srv_rate,0.04211154698959577
+srv_rerror_rate,0.2060719768036841
+srv_rerror_rate & same_srv_rate,0.04388538290977315
+same_srv_rate,0.22921712433907557
+diff_srv_rate,0.041821593041105234
+diff_srv_rate & srv_count,0.041565751321848886
+diff_srv_rate & srv_count & srv_rerror_rate,0.037216442094490876
+diff_srv_rate & srv_count & dst_host_srv_rerror_rate,0.037165273750639605
+diff_srv_rate & srv_count & dst_host_srv_rerror_rate & srv_rerror_rate,0.037165273750639605
+diff_srv_rate & srv_rerror_rate,0.037233498209107964
+diff_srv_rate & dst_host_srv_count,0.04020126215248167
+diff_srv_rate & dst_host_srv_count & srv_count,0.040167149923247485
+diff_srv_rate & dst_host_srv_count & srv_count & srv_rerror_rate,0.037097049292171246
+diff_srv_rate & dst_host_srv_count & srv_count & dst_host_srv_rerror_rate,0.037097049292171246
+diff_srv_rate & dst_host_srv_count & srv_count & dst_host_srv_rerror_rate & srv_rerror_rate,0.037097049292171246
+diff_srv_rate & dst_host_srv_count & srv_rerror_rate,0.037114105406788334
+diff_srv_rate & dst_host_srv_count & dst_host_srv_rerror_rate,0.037114105406788334
+diff_srv_rate & dst_host_srv_count & dst_host_srv_rerror_rate & srv_rerror_rate,0.037114105406788334
+diff_srv_rate & dst_host_srv_rerror_rate,0.03718232986525669
+diff_srv_rate & dst_host_srv_rerror_rate & srv_rerror_rate,0.03718232986525669
+srv_diff_host_rate,0.06061743134913867
+srv_diff_host_rate & count,0.06031042128603104
+srv_diff_host_rate & count & same_srv_rate,0.06031042128603104
+srv_diff_host_rate & count & dst_host_same_src_port_rate,0.059577008357496165
+srv_diff_host_rate & count & dst_host_same_src_port_rate & same_srv_rate,0.059577008357496165
+srv_diff_host_rate & same_srv_rate,0.06031042128603104
+srv_diff_host_rate & dst_host_same_srv_rate,0.060054579566774687
+srv_diff_host_rate & dst_host_same_srv_rate & count,0.05998635510830633
+srv_diff_host_rate & dst_host_same_srv_rate & count & same_srv_rate,0.05998635510830633
+srv_diff_host_rate & dst_host_same_srv_rate & count & dst_host_same_src_port_rate,0.059577008357496165
+srv_diff_host_rate & dst_host_same_srv_rate & count & dst_host_same_src_port_rate & same_srv_rate,0.059577008357496165
+srv_diff_host_rate & dst_host_same_srv_rate & same_srv_rate,0.05998635510830633
+srv_diff_host_rate & dst_host_same_srv_rate & dst_host_same_src_port_rate,0.059645232815964525
+srv_diff_host_rate & dst_host_same_srv_rate & dst_host_same_src_port_rate & same_srv_rate,0.059577008357496165
+srv_diff_host_rate & dst_host_same_src_port_rate,0.05966228893058161
+srv_diff_host_rate & dst_host_same_src_port_rate & same_srv_rate,0.059577008357496165
+dst_host_count,0.034214565921882996
+dst_host_count & count,0.034044004775712094
+dst_host_count & count & same_srv_rate,0.034044004775712094
+dst_host_count & count & dst_host_same_src_port_rate,0.034044004775712094
+dst_host_count & count & dst_host_same_src_port_rate & same_srv_rate,0.034044004775712094
+dst_host_count & same_srv_rate,0.03406106089032918
+dst_host_count & dst_host_same_srv_rate,0.034214565921882996
+dst_host_count & dst_host_same_srv_rate & count,0.034044004775712094
+dst_host_count & dst_host_same_srv_rate & count & same_srv_rate,0.034044004775712094
+dst_host_count & dst_host_same_srv_rate & count & dst_host_same_src_port_rate,0.034044004775712094
+dst_host_count & dst_host_same_srv_rate & count & dst_host_same_src_port_rate & same_srv_rate,0.034044004775712094
+dst_host_count & dst_host_same_srv_rate & same_srv_rate,0.03406106089032918
+dst_host_count & dst_host_same_srv_rate & dst_host_same_src_port_rate,0.034214565921882996
+dst_host_count & dst_host_same_srv_rate & dst_host_same_src_port_rate & same_srv_rate,0.03406106089032918
+dst_host_count & dst_host_same_src_port_rate,0.034214565921882996
+dst_host_count & dst_host_same_src_port_rate & same_srv_rate,0.03406106089032918
+dst_host_srv_count,0.11514582977997612
+dst_host_srv_count & srv_count,0.10119392802319632
+dst_host_srv_count & srv_count & rerror_rate,0.03496503496503497
+dst_host_srv_count & srv_count & rerror_rate & srv_rerror_rate,0.03494797885041787
+dst_host_srv_count & srv_count & rerror_rate & dst_host_srv_rerror_rate,0.03494797885041787
+dst_host_srv_count & srv_count & rerror_rate & dst_host_srv_rerror_rate & srv_rerror_rate,0.03494797885041787
+dst_host_srv_count & srv_count & srv_rerror_rate,0.06827562681221218
+dst_host_srv_count & srv_count & dst_host_srv_rerror_rate,0.06827562681221218
+dst_host_srv_count & srv_count & dst_host_srv_rerror_rate & srv_rerror_rate,0.06827562681221218
+dst_host_srv_count & serror_rate,0.03583489681050657
+dst_host_srv_count & serror_rate & srv_serror_rate,0.035698447893569844
+dst_host_srv_count & serror_rate & dst_host_srv_serror_rate,0.03583489681050657
+dst_host_srv_count & serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.035698447893569844
+dst_host_srv_count & srv_serror_rate,0.03837625788845301
+dst_host_srv_count & rerror_rate,0.03583489681050657
+dst_host_srv_count & rerror_rate & srv_rerror_rate,0.0357837284666553
+dst_host_srv_count & rerror_rate & dst_host_srv_rerror_rate,0.035817840695889475
+dst_host_srv_count & rerror_rate & dst_host_srv_rerror_rate & srv_rerror_rate,0.0357837284666553
+dst_host_srv_count & srv_rerror_rate,0.06912843254306669
+dst_host_srv_count & dst_host_serror_rate,0.03189493433395872
+dst_host_srv_count & dst_host_serror_rate & serror_rate,0.03148558758314856
+dst_host_srv_count & dst_host_serror_rate & serror_rate & srv_serror_rate,0.031349138666211834
+dst_host_srv_count & dst_host_serror_rate & serror_rate & dst_host_srv_serror_rate,0.03148558758314856
+dst_host_srv_count & dst_host_serror_rate & serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.031349138666211834
+dst_host_srv_count & dst_host_serror_rate & srv_serror_rate,0.031758485417022
+dst_host_srv_count & dst_host_serror_rate & dst_host_srv_serror_rate,0.03189493433395872
+dst_host_srv_count & dst_host_serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.031758485417022
+dst_host_srv_count & dst_host_srv_serror_rate,0.038512706805389735
+dst_host_srv_count & dst_host_srv_serror_rate & srv_serror_rate,0.03837625788845301
+dst_host_srv_count & dst_host_srv_rerror_rate,0.06919665700153504
+dst_host_srv_count & dst_host_srv_rerror_rate & srv_rerror_rate,0.06912843254306669
+dst_host_same_srv_rate,0.1177895275456251
+dst_host_same_srv_rate & count,0.07842401500938086
+dst_host_same_srv_rate & count & same_srv_rate,0.07842401500938086
+dst_host_same_srv_rate & count & dst_host_same_src_port_rate,0.07658195463073512
+dst_host_same_srv_rate & count & dst_host_same_src_port_rate & same_srv_rate,0.07658195463073512
+dst_host_same_srv_rate & same_srv_rate,0.11691966570015351
+dst_host_same_srv_rate & dst_host_same_src_port_rate,0.09926658707146511
+dst_host_same_srv_rate & dst_host_same_src_port_rate & same_srv_rate,0.09897663312297458
+dst_host_diff_srv_rate,0.0355961112058673
+dst_host_diff_srv_rate & srv_count,0.03520382056967423
+dst_host_same_src_port_rate,0.13266245949172778
+dst_host_same_src_port_rate & same_srv_rate,0.11975098072659049
+dst_host_serror_rate,0.5713286713286714
+dst_host_serror_rate & serror_rate,0.5613849565069077
+dst_host_serror_rate & serror_rate & srv_serror_rate,0.5589288760020468
+dst_host_serror_rate & serror_rate & dst_host_srv_serror_rate,0.558400136448917
+dst_host_serror_rate & serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.5559781681732902
+dst_host_serror_rate & srv_serror_rate,0.5681903462391267
+dst_host_serror_rate & dst_host_srv_serror_rate,0.5680880095514241
+dst_host_serror_rate & dst_host_srv_serror_rate & srv_serror_rate,0.5649837966911138
+dst_host_srv_serror_rate,0.5837114105406789
+dst_host_srv_serror_rate & srv_serror_rate,0.5806071976803684
+dst_host_rerror_rate,0.1411905168002729
+dst_host_rerror_rate & rerror_rate,0.1403377110694184
+dst_host_rerror_rate & rerror_rate & srv_rerror_rate,0.14028654272556712
+dst_host_rerror_rate & rerror_rate & dst_host_srv_rerror_rate,0.1399624765478424
+dst_host_rerror_rate & rerror_rate & dst_host_srv_rerror_rate & srv_rerror_rate,0.13992836431860822
+dst_host_rerror_rate & srv_rerror_rate,0.14107112399795327
+dst_host_rerror_rate & dst_host_srv_rerror_rate,0.14074705782022856
+dst_host_rerror_rate & dst_host_srv_rerror_rate & srv_rerror_rate,0.14071294559099437
+dst_host_srv_rerror_rate,0.2041958041958042
+dst_host_srv_rerror_rate & srv_rerror_rate,0.20411052362271875
+dst_host_srv_rerror_rate & srv_rerror_rate & same_srv_rate,0.04209449087497868
+dst_host_srv_rerror_rate & same_srv_rate,0.04211154698959577
