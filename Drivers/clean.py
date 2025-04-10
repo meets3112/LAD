@@ -1,23 +1,24 @@
 import pandas as pd
 
 
-def replace_pos_operators(rule):
-    rule = rule.replace('=', '>=')
-    return rule
-
-def replace_neg_operators(rule):
-    if rule[0] == '!':
-        rule = rule.replace('=', '<')
-    rule.replace('!', '')
-    return rule
+def replace_operators(rule):
+    terms = rule.split(' & ')
+    updated_terms = []
+    for term in terms:
+        if term.startswith('!'):
+            term = term.replace('!', '').replace('=', '<')
+        else:
+            term = term.replace('=', '>=')
+        updated_terms.append(term)
+    return ' & '.join(updated_terms)
 
 
 def clean_rules(input_file, output_file):
     # Load the CSV file
     rules_df = pd.read_csv(input_file)
 
-    rules_df['rule'] = rules_df['rule'].apply(replace_neg_operators)
-    rules_df['rule'] = rules_df['rule'].apply(replace_pos_operators)
+    rules_df['rule'] = rules_df['rule'].apply(replace_operators)
+    # rules_df['rule'] = rules_df['rule'].apply(replace_pos_operators)
 
     def simplify_rule(rule):
         terms = rule.split(' & ')

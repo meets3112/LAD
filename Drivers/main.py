@@ -65,7 +65,7 @@ def lad_fp(train_df, test_df, top_n_lower, top_n_higher, path):
 
 
 # Define input parameters
-data_file = f"../Dataset/{sys.argv[1]}/Preserved_Bins/{sys.argv[1]}_train.csv"
+data_file = f"../Dataset/{sys.argv[1]}/Complemented/{sys.argv[1]}_train.csv"
 test_file = f"../Dataset/{sys.argv[1]}/Train_Test/{sys.argv[1]}_test.csv"
 
 ds = f"{sys.argv[1]}"  # Give dataset name to make a folder

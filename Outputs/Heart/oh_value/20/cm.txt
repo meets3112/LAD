@@ -1,12 +1,12 @@
 
 
 Classification Metrics
-Precision: 0.7857142857142857
-Recall: 0.6875
-F1 Score: 0.7333333333333333
-Accuracy: 0.7377049180327869
+Precision: 1.0
+Recall: 0.625
+F1 Score: 0.7692307692307693
+Accuracy: 0.8032786885245902
 
 Confusion Matrix (Actual vs Predicted)
              Predicted 0     Predicted 1
-Actual 0     23              6
-Actual 1     10              22
+Actual 0     29              0
+Actual 1     12              20
