@@ -70,8 +70,6 @@ def main(data, pos_min_support,class_label, path):
         data_df = spark.createDataFrame(data, ["features", "class_label"])
 
         # Generating Patterns
-        data_df = data_df.limit(10)
-        data_df = data_df.repartition(16)  # Increase parallelism
         frequent_patterns, count = fp_growth(data_df, pos_min_support, class_label)
         print("Frequent Itemsets:")
         frequent_patterns.show(truncate=False)
