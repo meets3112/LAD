@@ -14,6 +14,6 @@ weight gen -  train data is non binarized
 
 testing - test data is non binarized
 
-results.py and lineplot
+results.py and lineplot and boxplot
 
 plot

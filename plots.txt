@@ -2,7 +2,7 @@
 Heart   Plot1 : on binarized data with         aman Heart_P1_wb_wn
                          and wo neg literals   aman Heart_P1_wb_won
         Plot2 : on support-set data with       meet Heart                Done
-                         and wo neg literals   meet Heart_P2_wb_won
+                         and wo neg literals   meet Heart_P2_wb_won      Done
         w/o leftover binary features
         Plot1 : on binarized data with         aman Heart_P1_wob_wn
                         and wo neg literals    aman Heart_P1_wob_won
