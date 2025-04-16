@@ -13,12 +13,12 @@ neg_rules_data = pd.read_csv(f'../Rules/{sys.argv[1]}/All_Weights/neg_rules.csv'
 # Create a scatter plot
 plt.figure(figsize=(8, 6))
 # sns.scatterplot(x='h_value', y='coverage', data=neg_rules_data, alpha=0.7, hue='ch_value')
-scatter = plt.scatter(neg_rules_data['h_value'], neg_rules_data['coverage'], c=neg_rules_data['ch_value'], cmap='viridis', alpha=0.8)
+scatter = plt.scatter(neg_rules_data['normalized_support'], neg_rules_data['coverage'], c=neg_rules_data['ch_value'], cmap='viridis', alpha=0.8)
 plt.colorbar(scatter, label='ch-value')
 # plt.scatter(neg_rules_data['h_value'], neg_rules_data['coverage'], alpha=0.7, color='blue')
 
 # Add labels and title
-plt.xlabel('h-value')
+plt.xlabel('normalized_support')
 plt.ylabel('Coverage')
 plt.title('Comparison of Normalized Support and Coverage')
 

@@ -1,9 +1,0 @@
-        with leftover binary features
-Heart   Plot1 : on binarized data with
-                         and wo neg literals
-        Plot2 : on support-set data with       meet Heart
-                         and wo neg literals   meet Heart_P2_wb_won
-        w/o leftover binary features
-        Plot1 : on binarized data with and wo neg literals
-        Plot2 : on support-set data with         meet Heart_P2_wob_wn
-                        and wo neg literals       meet Heart_old
