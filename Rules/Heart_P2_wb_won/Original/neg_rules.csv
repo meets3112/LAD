@@ -1,464 +1,520 @@
 rule,normalized_support
-agecp=37.5,1.0
-exangcp=0.5,0.5
-exangcp=0.5 & agecp=37.5,0.5
-exangcp=0.5 & thalachcp=110.0,0.5
-exangcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & thalcp=1.5,0.5
-exangcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-exangcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-exangcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & agecp=56.5,0.5
-exangcp=0.5 & agecp=56.5 & agecp=37.5,0.5
-exangcp=0.5 & agecp=56.5 & thalachcp=110.0,0.5
-exangcp=0.5 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & agecp=56.5 & thalcp=1.5,0.5
-exangcp=0.5 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-exangcp=0.5 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-exangcp=0.5 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & agecp=56.5 & sexcp=0.5,0.5
-exangcp=0.5 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & thalachcp=110.0,0.5
-exangcp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0,0.5
-exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalachcp=110.0,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.5
-exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & sexcp=0.5,0.5
-exangcp=0.5 & sexcp=0.5 & agecp=37.5,0.5
-exangcp=0.5 & sexcp=0.5 & thalachcp=110.0,0.5
-exangcp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-exangcp=0.5 & sexcp=0.5 & thalcp=1.5,0.5
-exangcp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-exangcp=0.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-exangcp=0.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalachcp=110.0,1.0
-thalachcp=110.0 & agecp=37.5,1.0
-comcp=0.5,0.5
-comcp=0.5 & agecp=37.5,0.5
-comcp=0.5 & thalachcp=110.0,0.5
-comcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=0.5 & thalcp=1.5,0.5
-comcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=0.5 & trestbpscp=129.0,0.5
-comcp=0.5 & trestbpscp=129.0 & agecp=37.5,0.5
-comcp=0.5 & trestbpscp=129.0 & thalachcp=110.0,0.5
-comcp=0.5 & trestbpscp=129.0 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=0.5 & trestbpscp=129.0 & thalcp=1.5,0.5
-comcp=0.5 & trestbpscp=129.0 & thalcp=1.5 & agecp=37.5,0.5
-comcp=0.5 & trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=0.5 & trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=0.5 & trestbpscp=129.0 & sexcp=0.5,0.5
-comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & agecp=37.5,0.5
-comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0,0.5
-comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5,0.5
-comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=0.5 & sexcp=0.5,0.5
-comcp=0.5 & sexcp=0.5 & agecp=37.5,0.5
-comcp=0.5 & sexcp=0.5 & thalachcp=110.0,0.5
-comcp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=0.5 & sexcp=0.5 & thalcp=1.5,0.5
-comcp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=0.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=0.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=1.5,1.0
-thalcp=1.5 & agecp=37.5,1.0
-thalcp=1.5 & thalachcp=110.0,1.0
-thalcp=1.5 & thalachcp=110.0 & agecp=37.5,1.0
-thalcp=2.5,0.5
-thalcp=2.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & exangcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & thalcp=1.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & sexcp=0.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & sexcp=0.5,0.5
-thalcp=2.5 & exangcp=0.5 & sexcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & sexcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & sexcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & exangcp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & exangcp=0.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & exangcp=0.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & thalachcp=110.0,0.5
-thalcp=2.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & thalcp=1.5,0.5
-thalcp=2.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & agecp=56.5,0.5
-thalcp=2.5 & agecp=56.5 & agecp=37.5,0.5
-thalcp=2.5 & agecp=56.5 & thalachcp=110.0,0.5
-thalcp=2.5 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & agecp=56.5 & thalcp=1.5,0.5
-thalcp=2.5 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & agecp=56.5 & sexcp=0.5,0.5
-thalcp=2.5 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0,0.5
-thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & thalachcp=110.0,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & sexcp=0.5,0.5
-thalcp=2.5 & sexcp=0.5 & agecp=37.5,0.5
-thalcp=2.5 & sexcp=0.5 & thalachcp=110.0,0.5
-thalcp=2.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-thalcp=2.5 & sexcp=0.5 & thalcp=1.5,0.5
-thalcp=2.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-thalcp=2.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-thalcp=2.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-agecp=56.5,0.75
-agecp=56.5 & agecp=37.5,0.75
-agecp=56.5 & thalachcp=110.0,0.75
-agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.75
-agecp=56.5 & thalcp=1.5,0.75
-agecp=56.5 & thalcp=1.5 & agecp=37.5,0.75
-agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.75
-agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.75
-agecp=56.5 & sexcp=0.5,0.75
-agecp=56.5 & sexcp=0.5 & agecp=37.5,0.75
-agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.75
-agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.75
-agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.75
-agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.75
-agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.75
-agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.75
-oldpeakcp=0.55,0.75
-oldpeakcp=0.55 & agecp=37.5,0.75
-oldpeakcp=0.55 & thalachcp=110.0,0.75
-oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.75
-oldpeakcp=0.55 & thalcp=1.5,0.75
-oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.75
-oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0,0.75
-oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.75
-oldpeakcp=0.55 & agecp=56.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & agecp=37.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & thalachcp=110.0,0.5
-oldpeakcp=0.55 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-oldpeakcp=0.55 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-oldpeakcp=0.55 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-oldpeakcp=0.55 & sexcp=0.5,0.75
-oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.75
-oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.75
-oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.75
-oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.75
-oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.75
-oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.75
-oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.75
-comcp=1.5,0.5
-comcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5,0.5
-comcp=1.5 & comcp=0.5 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & thalachcp=110.0,0.5
-comcp=1.5 & comcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & thalcp=1.5,0.5
-comcp=1.5 & comcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & comcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & thalachcp=110.0,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & thalcp=1.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & thalcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & sexcp=0.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & comcp=0.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & sexcp=0.5,0.5
-comcp=1.5 & comcp=0.5 & sexcp=0.5 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & sexcp=0.5 & thalachcp=110.0,0.5
-comcp=1.5 & comcp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & sexcp=0.5 & thalcp=1.5,0.5
-comcp=1.5 & comcp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & comcp=0.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & comcp=0.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & thalcp=1.5,0.5
-comcp=1.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & trestbpscp=129.0,0.5
-comcp=1.5 & trestbpscp=129.0 & agecp=37.5,0.5
-comcp=1.5 & trestbpscp=129.0 & thalachcp=110.0,0.5
-comcp=1.5 & trestbpscp=129.0 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & trestbpscp=129.0 & thalcp=1.5,0.5
-comcp=1.5 & trestbpscp=129.0 & thalcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & trestbpscp=129.0 & sexcp=0.5,0.5
-comcp=1.5 & trestbpscp=129.0 & sexcp=0.5 & agecp=37.5,0.5
-comcp=1.5 & trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0,0.5
-comcp=1.5 & trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5,0.5
-comcp=1.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & sexcp=0.5,0.5
-comcp=1.5 & sexcp=0.5 & agecp=37.5,0.5
-comcp=1.5 & sexcp=0.5 & thalachcp=110.0,0.5
-comcp=1.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-comcp=1.5 & sexcp=0.5 & thalcp=1.5,0.5
-comcp=1.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-comcp=1.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-comcp=1.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5,0.5
-cholcp=231.5 & agecp=37.5,0.5
-cholcp=231.5 & thalachcp=110.0,0.5
-cholcp=231.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & thalcp=1.5,0.5
-cholcp=231.5 & thalcp=1.5 & agecp=37.5,0.5
-cholcp=231.5 & thalcp=1.5 & thalachcp=110.0,0.5
-cholcp=231.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & agecp=56.5,0.5
-cholcp=231.5 & agecp=56.5 & agecp=37.5,0.5
-cholcp=231.5 & agecp=56.5 & thalachcp=110.0,0.5
-cholcp=231.5 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & agecp=56.5 & thalcp=1.5,0.5
-cholcp=231.5 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-cholcp=231.5 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-cholcp=231.5 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & agecp=56.5 & sexcp=0.5,0.5
-cholcp=231.5 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-cholcp=231.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-cholcp=231.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-cholcp=231.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-cholcp=231.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-cholcp=231.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & thalachcp=110.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & thalcp=1.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & thalcp=1.5 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & thalachcp=110.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & thalcp=1.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & sexcp=0.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & sexcp=0.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & sexcp=0.5 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-cholcp=231.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-cholcp=231.5 & trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & sexcp=0.5,0.5
-cholcp=231.5 & sexcp=0.5 & agecp=37.5,0.5
-cholcp=231.5 & sexcp=0.5 & thalachcp=110.0,0.5
-cholcp=231.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-cholcp=231.5 & sexcp=0.5 & thalcp=1.5,0.5
-cholcp=231.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-cholcp=231.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-cholcp=231.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0,0.75
-trestbpscp=129.0 & agecp=37.5,0.75
-trestbpscp=129.0 & thalachcp=110.0,0.75
-trestbpscp=129.0 & thalachcp=110.0 & agecp=37.5,0.75
-trestbpscp=129.0 & thalcp=1.5,0.75
-trestbpscp=129.0 & thalcp=1.5 & agecp=37.5,0.75
-trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0,0.75
-trestbpscp=129.0 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.75
-trestbpscp=129.0 & agecp=56.5,0.5
-trestbpscp=129.0 & agecp=56.5 & agecp=37.5,0.5
-trestbpscp=129.0 & agecp=56.5 & thalachcp=110.0,0.5
-trestbpscp=129.0 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0 & agecp=56.5 & thalcp=1.5,0.5
-trestbpscp=129.0 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5
-trestbpscp=129.0 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0,0.5
-trestbpscp=129.0 & agecp=56.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0 & agecp=56.5 & sexcp=0.5,0.5
-trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.5
-trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.5
-trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.5
-trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & agecp=37.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & thalachcp=110.0,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & thalcp=1.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.5
-trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.5
-trestbpscp=129.0 & sexcp=0.5,0.75
-trestbpscp=129.0 & sexcp=0.5 & agecp=37.5,0.75
-trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0,0.75
-trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.75
-trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5,0.75
-trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.75
-trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,0.75
-trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,0.75
-sexcp=0.5,1.0
-sexcp=0.5 & agecp=37.5,1.0
-sexcp=0.5 & thalachcp=110.0,1.0
-sexcp=0.5 & thalachcp=110.0 & agecp=37.5,1.0
-sexcp=0.5 & thalcp=1.5,1.0
-sexcp=0.5 & thalcp=1.5 & agecp=37.5,1.0
-sexcp=0.5 & thalcp=1.5 & thalachcp=110.0,1.0
-sexcp=0.5 & thalcp=1.5 & thalachcp=110.0 & agecp=37.5,1.0
+oldpeakcp=2.3499999999999996,0.27522935779816515
+oldpeakcp=2.3499999999999996 & agecp=37.5,0.27522935779816515
+oldpeakcp=2.3499999999999996 & thalachcp=110.0,0.26605504587155965
+oldpeakcp=2.3499999999999996 & thalachcp=110.0 & agecp=37.5,0.26605504587155965
+oldpeakcp=2.3499999999999996 & thalcp=1.5,0.25688073394495414
+oldpeakcp=2.3499999999999996 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+oldpeakcp=2.3499999999999996 & oldpeakcp=0.55,0.27522935779816515
+oldpeakcp=2.3499999999999996 & oldpeakcp=0.55 & agecp=37.5,0.27522935779816515
+oldpeakcp=2.3499999999999996 & oldpeakcp=0.55 & thalachcp=110.0,0.26605504587155965
+oldpeakcp=2.3499999999999996 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.26605504587155965
+oldpeakcp=2.3499999999999996 & oldpeakcp=0.55 & thalcp=1.5,0.25688073394495414
+oldpeakcp=2.3499999999999996 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+agecp=37.5,0.981651376146789
+exangcp=0.5,0.5412844036697247
+exangcp=0.5 & agecp=37.5,0.5229357798165137
+exangcp=0.5 & thalachcp=110.0,0.47706422018348627
+exangcp=0.5 & thalachcp=110.0 & agecp=37.5,0.45871559633027525
+exangcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.44036697247706424
+exangcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.42201834862385323
+exangcp=0.5 & cacp=0.5,0.3302752293577982
+exangcp=0.5 & cacp=0.5 & agecp=37.5,0.3302752293577982
+exangcp=0.5 & cacp=0.5 & thalachcp=110.0,0.26605504587155965
+exangcp=0.5 & cacp=0.5 & thalachcp=110.0 & agecp=37.5,0.26605504587155965
+exangcp=0.5 & cacp=0.5 & thalcp=1.5,0.30275229357798167
+exangcp=0.5 & cacp=0.5 & thalcp=1.5 & agecp=37.5,0.30275229357798167
+exangcp=0.5 & cacp=0.5 & oldpeakcp=0.55,0.27522935779816515
+exangcp=0.5 & cacp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.27522935779816515
+exangcp=0.5 & cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5,0.25688073394495414
+exangcp=0.5 & cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+exangcp=0.5 & cacp=0.5 & sexcp=0.5,0.30275229357798167
+exangcp=0.5 & cacp=0.5 & sexcp=0.5 & agecp=37.5,0.30275229357798167
+exangcp=0.5 & cacp=0.5 & sexcp=0.5 & thalcp=1.5,0.27522935779816515
+exangcp=0.5 & cacp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+exangcp=0.5 & thalcp=1.5,0.4954128440366973
+exangcp=0.5 & thalcp=1.5 & agecp=37.5,0.47706422018348627
+exangcp=0.5 & thalcp=2.5,0.3761467889908257
+exangcp=0.5 & thalcp=2.5 & agecp=37.5,0.3577981651376147
+exangcp=0.5 & thalcp=2.5 & thalachcp=110.0,0.3486238532110092
+exangcp=0.5 & thalcp=2.5 & thalachcp=110.0 & agecp=37.5,0.3302752293577982
+exangcp=0.5 & thalcp=2.5 & thalachcp=110.0 & thalcp=1.5,0.3486238532110092
+exangcp=0.5 & thalcp=2.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+exangcp=0.5 & thalcp=2.5 & thalcp=1.5,0.3761467889908257
+exangcp=0.5 & thalcp=2.5 & thalcp=1.5 & agecp=37.5,0.3577981651376147
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55,0.3394495412844037
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & agecp=37.5,0.3302752293577982
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0,0.3119266055045872
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.30275229357798167
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.3119266055045872
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.30275229357798167
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5,0.3394495412844037
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5,0.29357798165137616
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.28440366972477066
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.26605504587155965
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.25688073394495414
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.26605504587155965
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.29357798165137616
+exangcp=0.5 & thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+exangcp=0.5 & thalcp=2.5 & sexcp=0.5,0.3211009174311927
+exangcp=0.5 & thalcp=2.5 & sexcp=0.5 & agecp=37.5,0.30275229357798167
+exangcp=0.5 & thalcp=2.5 & sexcp=0.5 & thalachcp=110.0,0.29357798165137616
+exangcp=0.5 & thalcp=2.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.27522935779816515
+exangcp=0.5 & thalcp=2.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.29357798165137616
+exangcp=0.5 & thalcp=2.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+exangcp=0.5 & thalcp=2.5 & sexcp=0.5 & thalcp=1.5,0.3211009174311927
+exangcp=0.5 & thalcp=2.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.30275229357798167
+exangcp=0.5 & agecp=56.5,0.3119266055045872
+exangcp=0.5 & agecp=56.5 & agecp=37.5,0.3119266055045872
+exangcp=0.5 & agecp=56.5 & thalachcp=110.0,0.28440366972477066
+exangcp=0.5 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.28440366972477066
+exangcp=0.5 & agecp=56.5 & thalachcp=110.0 & thalcp=1.5,0.27522935779816515
+exangcp=0.5 & agecp=56.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+exangcp=0.5 & agecp=56.5 & thalcp=1.5,0.30275229357798167
+exangcp=0.5 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.30275229357798167
+exangcp=0.5 & oldpeakcp=0.55,0.44954128440366975
+exangcp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.44036697247706424
+exangcp=0.5 & oldpeakcp=0.55 & thalachcp=110.0,0.3944954128440367
+exangcp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.3853211009174312
+exangcp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.3669724770642202
+exangcp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3577981651376147
+exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5,0.41284403669724773
+exangcp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.4036697247706422
+exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5,0.3761467889908257
+exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.3669724770642202
+exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.3211009174311927
+exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.3119266055045872
+exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.29357798165137616
+exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.3394495412844037
+exangcp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+exangcp=0.5 & cholcp=231.5,0.3486238532110092
+exangcp=0.5 & cholcp=231.5 & agecp=37.5,0.3394495412844037
+exangcp=0.5 & cholcp=231.5 & thalachcp=110.0,0.30275229357798167
+exangcp=0.5 & cholcp=231.5 & thalachcp=110.0 & agecp=37.5,0.29357798165137616
+exangcp=0.5 & cholcp=231.5 & thalachcp=110.0 & thalcp=1.5,0.27522935779816515
+exangcp=0.5 & cholcp=231.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.26605504587155965
+exangcp=0.5 & cholcp=231.5 & thalcp=1.5,0.3211009174311927
+exangcp=0.5 & cholcp=231.5 & thalcp=1.5 & agecp=37.5,0.3119266055045872
+exangcp=0.5 & cholcp=231.5 & oldpeakcp=0.55,0.29357798165137616
+exangcp=0.5 & cholcp=231.5 & oldpeakcp=0.55 & agecp=37.5,0.29357798165137616
+exangcp=0.5 & cholcp=231.5 & oldpeakcp=0.55 & thalcp=1.5,0.27522935779816515
+exangcp=0.5 & cholcp=231.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+exangcp=0.5 & cholcp=231.5 & sexcp=0.5,0.27522935779816515
+exangcp=0.5 & cholcp=231.5 & sexcp=0.5 & agecp=37.5,0.26605504587155965
+exangcp=0.5 & sexcp=0.5,0.44036697247706424
+exangcp=0.5 & sexcp=0.5 & agecp=37.5,0.42201834862385323
+exangcp=0.5 & sexcp=0.5 & thalachcp=110.0,0.3761467889908257
+exangcp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.3577981651376147
+exangcp=0.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.3394495412844037
+exangcp=0.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3211009174311927
+exangcp=0.5 & sexcp=0.5 & thalcp=1.5,0.3944954128440367
+exangcp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.3761467889908257
+thalachcp=110.0,0.8807339449541285
+thalachcp=110.0 & agecp=37.5,0.8623853211009175
+thalachcp=110.0 & thalcp=1.5,0.8073394495412844
+thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.7889908256880734
+cacp=0.5,0.6605504587155964
+cacp=0.5 & agecp=37.5,0.6605504587155964
+cacp=0.5 & thalachcp=110.0,0.5412844036697247
+cacp=0.5 & thalachcp=110.0 & agecp=37.5,0.5412844036697247
+cacp=0.5 & thalachcp=110.0 & thalcp=1.5,0.48623853211009177
+cacp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.48623853211009177
+cacp=0.5 & thalcp=1.5,0.5871559633027523
+cacp=0.5 & thalcp=1.5 & agecp=37.5,0.5871559633027523
+cacp=0.5 & oldpeakcp=0.55,0.5045871559633027
+cacp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.5045871559633027
+cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0,0.3944954128440367
+cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.3944954128440367
+cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.3486238532110092
+cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3486238532110092
+cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5,0.44036697247706424
+cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.44036697247706424
+cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5,0.42201834862385323
+cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.42201834862385323
+cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.3302752293577982
+cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.3302752293577982
+cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.28440366972477066
+cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.3577981651376147
+cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.3577981651376147
+cacp=0.5 & sexcp=0.5,0.5596330275229358
+cacp=0.5 & sexcp=0.5 & agecp=37.5,0.5596330275229358
+cacp=0.5 & sexcp=0.5 & thalachcp=110.0,0.45871559633027525
+cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.45871559633027525
+cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.4036697247706422
+cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.4036697247706422
+cacp=0.5 & sexcp=0.5 & thalcp=1.5,0.48623853211009177
+cacp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.48623853211009177
+comcp=0.5,0.28440366972477066
+comcp=0.5 & agecp=37.5,0.28440366972477066
+comcp=0.5 & thalachcp=110.0,0.26605504587155965
+comcp=0.5 & thalachcp=110.0 & agecp=37.5,0.26605504587155965
+comcp=0.5 & thalcp=1.5,0.25688073394495414
+comcp=0.5 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+comcp=0.5 & sexcp=0.5,0.25688073394495414
+comcp=0.5 & sexcp=0.5 & agecp=37.5,0.25688073394495414
+thalcp=1.5,0.908256880733945
+thalcp=1.5 & agecp=37.5,0.8899082568807339
+cholcp=272.5,0.3119266055045872
+cholcp=272.5 & agecp=37.5,0.30275229357798167
+cholcp=272.5 & thalachcp=110.0,0.25688073394495414
+cholcp=272.5 & thalcp=1.5,0.29357798165137616
+cholcp=272.5 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+cholcp=272.5 & cholcp=231.5,0.3119266055045872
+cholcp=272.5 & cholcp=231.5 & agecp=37.5,0.30275229357798167
+cholcp=272.5 & cholcp=231.5 & thalachcp=110.0,0.25688073394495414
+cholcp=272.5 & cholcp=231.5 & thalcp=1.5,0.29357798165137616
+cholcp=272.5 & cholcp=231.5 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+thalcp=2.5,0.6146788990825688
+thalcp=2.5 & agecp=37.5,0.5963302752293578
+thalcp=2.5 & thalachcp=110.0,0.5596330275229358
+thalcp=2.5 & thalachcp=110.0 & agecp=37.5,0.5412844036697247
+thalcp=2.5 & thalachcp=110.0 & thalcp=1.5,0.5596330275229358
+thalcp=2.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.5412844036697247
+thalcp=2.5 & cacp=0.5,0.3853211009174312
+thalcp=2.5 & cacp=0.5 & agecp=37.5,0.3853211009174312
+thalcp=2.5 & cacp=0.5 & thalachcp=110.0,0.3302752293577982
+thalcp=2.5 & cacp=0.5 & thalachcp=110.0 & agecp=37.5,0.3302752293577982
+thalcp=2.5 & cacp=0.5 & thalachcp=110.0 & thalcp=1.5,0.3302752293577982
+thalcp=2.5 & cacp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+thalcp=2.5 & cacp=0.5 & thalcp=1.5,0.3853211009174312
+thalcp=2.5 & cacp=0.5 & thalcp=1.5 & agecp=37.5,0.3853211009174312
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55,0.3211009174311927
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.3211009174311927
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0,0.26605504587155965
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.26605504587155965
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.26605504587155965
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.26605504587155965
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5,0.3211009174311927
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.3211009174311927
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5,0.26605504587155965
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.26605504587155965
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.26605504587155965
+thalcp=2.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.26605504587155965
+thalcp=2.5 & cacp=0.5 & sexcp=0.5,0.3302752293577982
+thalcp=2.5 & cacp=0.5 & sexcp=0.5 & agecp=37.5,0.3302752293577982
+thalcp=2.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0,0.28440366972477066
+thalcp=2.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.28440366972477066
+thalcp=2.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.28440366972477066
+thalcp=2.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+thalcp=2.5 & cacp=0.5 & sexcp=0.5 & thalcp=1.5,0.3302752293577982
+thalcp=2.5 & cacp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+thalcp=2.5 & thalcp=1.5,0.6146788990825688
+thalcp=2.5 & thalcp=1.5 & agecp=37.5,0.5963302752293578
+thalcp=2.5 & agecp=56.5,0.3669724770642202
+thalcp=2.5 & agecp=56.5 & agecp=37.5,0.3669724770642202
+thalcp=2.5 & agecp=56.5 & thalachcp=110.0,0.3302752293577982
+thalcp=2.5 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.3302752293577982
+thalcp=2.5 & agecp=56.5 & thalachcp=110.0 & thalcp=1.5,0.3302752293577982
+thalcp=2.5 & agecp=56.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+thalcp=2.5 & agecp=56.5 & cacp=0.5,0.28440366972477066
+thalcp=2.5 & agecp=56.5 & cacp=0.5 & agecp=37.5,0.28440366972477066
+thalcp=2.5 & agecp=56.5 & cacp=0.5 & thalcp=1.5,0.28440366972477066
+thalcp=2.5 & agecp=56.5 & cacp=0.5 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+thalcp=2.5 & agecp=56.5 & thalcp=1.5,0.3669724770642202
+thalcp=2.5 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.3669724770642202
+thalcp=2.5 & agecp=56.5 & oldpeakcp=0.55,0.30275229357798167
+thalcp=2.5 & agecp=56.5 & oldpeakcp=0.55 & agecp=37.5,0.30275229357798167
+thalcp=2.5 & agecp=56.5 & oldpeakcp=0.55 & thalachcp=110.0,0.26605504587155965
+thalcp=2.5 & agecp=56.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.26605504587155965
+thalcp=2.5 & agecp=56.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.26605504587155965
+thalcp=2.5 & agecp=56.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.26605504587155965
+thalcp=2.5 & agecp=56.5 & oldpeakcp=0.55 & thalcp=1.5,0.30275229357798167
+thalcp=2.5 & agecp=56.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.30275229357798167
+thalcp=2.5 & agecp=56.5 & sexcp=0.5,0.30275229357798167
+thalcp=2.5 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.30275229357798167
+thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.27522935779816515
+thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.27522935779816515
+thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.27522935779816515
+thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.30275229357798167
+thalcp=2.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.30275229357798167
+thalcp=2.5 & oldpeakcp=0.55,0.5045871559633027
+thalcp=2.5 & oldpeakcp=0.55 & agecp=37.5,0.4954128440366973
+thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0,0.44954128440366975
+thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.44036697247706424
+thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.44954128440366975
+thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.44036697247706424
+thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5,0.5045871559633027
+thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.4954128440366973
+thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5,0.42201834862385323
+thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.41284403669724773
+thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.3761467889908257
+thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.3669724770642202
+thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.3761467889908257
+thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3669724770642202
+thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.42201834862385323
+thalcp=2.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.41284403669724773
+thalcp=2.5 & sexcp=0.5,0.5229357798165137
+thalcp=2.5 & sexcp=0.5 & agecp=37.5,0.5045871559633027
+thalcp=2.5 & sexcp=0.5 & thalachcp=110.0,0.47706422018348627
+thalcp=2.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.45871559633027525
+thalcp=2.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.47706422018348627
+thalcp=2.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.45871559633027525
+thalcp=2.5 & sexcp=0.5 & thalcp=1.5,0.5229357798165137
+thalcp=2.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5045871559633027
+agecp=56.5,0.6238532110091743
+agecp=56.5 & agecp=37.5,0.6238532110091743
+agecp=56.5 & thalachcp=110.0,0.5412844036697247
+agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.5412844036697247
+agecp=56.5 & thalachcp=110.0 & thalcp=1.5,0.4954128440366973
+agecp=56.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.4954128440366973
+agecp=56.5 & cacp=0.5,0.47706422018348627
+agecp=56.5 & cacp=0.5 & agecp=37.5,0.47706422018348627
+agecp=56.5 & cacp=0.5 & thalachcp=110.0,0.3944954128440367
+agecp=56.5 & cacp=0.5 & thalachcp=110.0 & agecp=37.5,0.3944954128440367
+agecp=56.5 & cacp=0.5 & thalachcp=110.0 & thalcp=1.5,0.3486238532110092
+agecp=56.5 & cacp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3486238532110092
+agecp=56.5 & cacp=0.5 & thalcp=1.5,0.42201834862385323
+agecp=56.5 & cacp=0.5 & thalcp=1.5 & agecp=37.5,0.42201834862385323
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55,0.3761467889908257
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.3761467889908257
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0,0.29357798165137616
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.29357798165137616
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.25688073394495414
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5,0.3302752293577982
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5,0.30275229357798167
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.30275229357798167
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.25688073394495414
+agecp=56.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+agecp=56.5 & cacp=0.5 & sexcp=0.5,0.3853211009174312
+agecp=56.5 & cacp=0.5 & sexcp=0.5 & agecp=37.5,0.3853211009174312
+agecp=56.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0,0.3211009174311927
+agecp=56.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.3211009174311927
+agecp=56.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.27522935779816515
+agecp=56.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+agecp=56.5 & cacp=0.5 & sexcp=0.5 & thalcp=1.5,0.3302752293577982
+agecp=56.5 & cacp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+agecp=56.5 & thalcp=1.5,0.5688073394495413
+agecp=56.5 & thalcp=1.5 & agecp=37.5,0.5688073394495413
+agecp=56.5 & oldpeakcp=0.55,0.46788990825688076
+agecp=56.5 & oldpeakcp=0.55 & agecp=37.5,0.46788990825688076
+agecp=56.5 & oldpeakcp=0.55 & thalachcp=110.0,0.3853211009174312
+agecp=56.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.3853211009174312
+agecp=56.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.3486238532110092
+agecp=56.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3486238532110092
+agecp=56.5 & oldpeakcp=0.55 & thalcp=1.5,0.42201834862385323
+agecp=56.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.42201834862385323
+agecp=56.5 & oldpeakcp=0.55 & sexcp=0.5,0.3761467889908257
+agecp=56.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.3761467889908257
+agecp=56.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.3119266055045872
+agecp=56.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.3119266055045872
+agecp=56.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.27522935779816515
+agecp=56.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+agecp=56.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.3302752293577982
+agecp=56.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+agecp=56.5 & sexcp=0.5,0.47706422018348627
+agecp=56.5 & sexcp=0.5 & agecp=37.5,0.47706422018348627
+agecp=56.5 & sexcp=0.5 & thalachcp=110.0,0.41284403669724773
+agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.41284403669724773
+agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.3669724770642202
+agecp=56.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3669724770642202
+agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.42201834862385323
+agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.42201834862385323
+oldpeakcp=0.55,0.7522935779816514
+oldpeakcp=0.55 & agecp=37.5,0.7431192660550459
+oldpeakcp=0.55 & thalachcp=110.0,0.6422018348623854
+oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.6330275229357798
+oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.5779816513761468
+oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.5688073394495413
+oldpeakcp=0.55 & thalcp=1.5,0.6697247706422018
+oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.6605504587155964
+oldpeakcp=0.55 & sexcp=0.5,0.6238532110091743
+oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.6146788990825688
+oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.5321100917431193
+oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.5229357798165137
+oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.46788990825688076
+oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.45871559633027525
+oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.5412844036697247
+oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.5321100917431193
+cholcp=231.5,0.6146788990825688
+cholcp=231.5 & agecp=37.5,0.6055045871559633
+cholcp=231.5 & thalachcp=110.0,0.5321100917431193
+cholcp=231.5 & thalachcp=110.0 & agecp=37.5,0.5229357798165137
+cholcp=231.5 & thalachcp=110.0 & thalcp=1.5,0.48623853211009177
+cholcp=231.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.47706422018348627
+cholcp=231.5 & cacp=0.5,0.41284403669724773
+cholcp=231.5 & cacp=0.5 & agecp=37.5,0.41284403669724773
+cholcp=231.5 & cacp=0.5 & thalachcp=110.0,0.3302752293577982
+cholcp=231.5 & cacp=0.5 & thalachcp=110.0 & agecp=37.5,0.3302752293577982
+cholcp=231.5 & cacp=0.5 & thalachcp=110.0 & thalcp=1.5,0.29357798165137616
+cholcp=231.5 & cacp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.29357798165137616
+cholcp=231.5 & cacp=0.5 & thalcp=1.5,0.3761467889908257
+cholcp=231.5 & cacp=0.5 & thalcp=1.5 & agecp=37.5,0.3761467889908257
+cholcp=231.5 & cacp=0.5 & oldpeakcp=0.55,0.3211009174311927
+cholcp=231.5 & cacp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.3211009174311927
+cholcp=231.5 & cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5,0.29357798165137616
+cholcp=231.5 & cacp=0.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.29357798165137616
+cholcp=231.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5,0.26605504587155965
+cholcp=231.5 & cacp=0.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.26605504587155965
+cholcp=231.5 & cacp=0.5 & sexcp=0.5,0.3394495412844037
+cholcp=231.5 & cacp=0.5 & sexcp=0.5 & agecp=37.5,0.3394495412844037
+cholcp=231.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0,0.27522935779816515
+cholcp=231.5 & cacp=0.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.27522935779816515
+cholcp=231.5 & cacp=0.5 & sexcp=0.5 & thalcp=1.5,0.30275229357798167
+cholcp=231.5 & cacp=0.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.30275229357798167
+cholcp=231.5 & thalcp=1.5,0.5688073394495413
+cholcp=231.5 & thalcp=1.5 & agecp=37.5,0.5596330275229358
+cholcp=231.5 & thalcp=2.5,0.3577981651376147
+cholcp=231.5 & thalcp=2.5 & agecp=37.5,0.3486238532110092
+cholcp=231.5 & thalcp=2.5 & thalachcp=110.0,0.3119266055045872
+cholcp=231.5 & thalcp=2.5 & thalachcp=110.0 & agecp=37.5,0.30275229357798167
+cholcp=231.5 & thalcp=2.5 & thalachcp=110.0 & thalcp=1.5,0.3119266055045872
+cholcp=231.5 & thalcp=2.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.30275229357798167
+cholcp=231.5 & thalcp=2.5 & thalcp=1.5,0.3577981651376147
+cholcp=231.5 & thalcp=2.5 & thalcp=1.5 & agecp=37.5,0.3486238532110092
+cholcp=231.5 & thalcp=2.5 & oldpeakcp=0.55,0.28440366972477066
+cholcp=231.5 & thalcp=2.5 & oldpeakcp=0.55 & agecp=37.5,0.28440366972477066
+cholcp=231.5 & thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5,0.28440366972477066
+cholcp=231.5 & thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+cholcp=231.5 & thalcp=2.5 & sexcp=0.5,0.29357798165137616
+cholcp=231.5 & thalcp=2.5 & sexcp=0.5 & agecp=37.5,0.28440366972477066
+cholcp=231.5 & thalcp=2.5 & sexcp=0.5 & thalachcp=110.0,0.25688073394495414
+cholcp=231.5 & thalcp=2.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.25688073394495414
+cholcp=231.5 & thalcp=2.5 & sexcp=0.5 & thalcp=1.5,0.29357798165137616
+cholcp=231.5 & thalcp=2.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+cholcp=231.5 & agecp=56.5,0.41284403669724773
+cholcp=231.5 & agecp=56.5 & agecp=37.5,0.41284403669724773
+cholcp=231.5 & agecp=56.5 & thalachcp=110.0,0.3486238532110092
+cholcp=231.5 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.3486238532110092
+cholcp=231.5 & agecp=56.5 & thalachcp=110.0 & thalcp=1.5,0.3211009174311927
+cholcp=231.5 & agecp=56.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3211009174311927
+cholcp=231.5 & agecp=56.5 & cacp=0.5,0.30275229357798167
+cholcp=231.5 & agecp=56.5 & cacp=0.5 & agecp=37.5,0.30275229357798167
+cholcp=231.5 & agecp=56.5 & cacp=0.5 & thalcp=1.5,0.27522935779816515
+cholcp=231.5 & agecp=56.5 & cacp=0.5 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+cholcp=231.5 & agecp=56.5 & thalcp=1.5,0.3853211009174312
+cholcp=231.5 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.3853211009174312
+cholcp=231.5 & agecp=56.5 & oldpeakcp=0.55,0.30275229357798167
+cholcp=231.5 & agecp=56.5 & oldpeakcp=0.55 & agecp=37.5,0.30275229357798167
+cholcp=231.5 & agecp=56.5 & oldpeakcp=0.55 & thalcp=1.5,0.28440366972477066
+cholcp=231.5 & agecp=56.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+cholcp=231.5 & agecp=56.5 & sexcp=0.5,0.29357798165137616
+cholcp=231.5 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.29357798165137616
+cholcp=231.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5,0.26605504587155965
+cholcp=231.5 & agecp=56.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.26605504587155965
+cholcp=231.5 & oldpeakcp=0.55,0.44954128440366975
+cholcp=231.5 & oldpeakcp=0.55 & agecp=37.5,0.44954128440366975
+cholcp=231.5 & oldpeakcp=0.55 & thalachcp=110.0,0.3669724770642202
+cholcp=231.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.3669724770642202
+cholcp=231.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.3302752293577982
+cholcp=231.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+cholcp=231.5 & oldpeakcp=0.55 & thalcp=1.5,0.41284403669724773
+cholcp=231.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.41284403669724773
+cholcp=231.5 & oldpeakcp=0.55 & sexcp=0.5,0.3486238532110092
+cholcp=231.5 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.3486238532110092
+cholcp=231.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.28440366972477066
+cholcp=231.5 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.28440366972477066
+cholcp=231.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.3119266055045872
+cholcp=231.5 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.3119266055045872
+cholcp=231.5 & sexcp=0.5,0.46788990825688076
+cholcp=231.5 & sexcp=0.5 & agecp=37.5,0.45871559633027525
+cholcp=231.5 & sexcp=0.5 & thalachcp=110.0,0.4036697247706422
+cholcp=231.5 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.3944954128440367
+cholcp=231.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.3577981651376147
+cholcp=231.5 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3486238532110092
+cholcp=231.5 & sexcp=0.5 & thalcp=1.5,0.42201834862385323
+cholcp=231.5 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.41284403669724773
+trestbpscp=129.0,0.5321100917431193
+trestbpscp=129.0 & agecp=37.5,0.5321100917431193
+trestbpscp=129.0 & exangcp=0.5,0.28440366972477066
+trestbpscp=129.0 & exangcp=0.5 & agecp=37.5,0.28440366972477066
+trestbpscp=129.0 & exangcp=0.5 & thalachcp=110.0,0.25688073394495414
+trestbpscp=129.0 & exangcp=0.5 & thalachcp=110.0 & agecp=37.5,0.25688073394495414
+trestbpscp=129.0 & thalachcp=110.0,0.45871559633027525
+trestbpscp=129.0 & thalachcp=110.0 & agecp=37.5,0.45871559633027525
+trestbpscp=129.0 & thalachcp=110.0 & thalcp=1.5,0.42201834862385323
+trestbpscp=129.0 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.42201834862385323
+trestbpscp=129.0 & cacp=0.5,0.3394495412844037
+trestbpscp=129.0 & cacp=0.5 & agecp=37.5,0.3394495412844037
+trestbpscp=129.0 & cacp=0.5 & thalachcp=110.0,0.26605504587155965
+trestbpscp=129.0 & cacp=0.5 & thalachcp=110.0 & agecp=37.5,0.26605504587155965
+trestbpscp=129.0 & cacp=0.5 & thalcp=1.5,0.29357798165137616
+trestbpscp=129.0 & cacp=0.5 & thalcp=1.5 & agecp=37.5,0.29357798165137616
+trestbpscp=129.0 & cacp=0.5 & oldpeakcp=0.55,0.27522935779816515
+trestbpscp=129.0 & cacp=0.5 & oldpeakcp=0.55 & agecp=37.5,0.27522935779816515
+trestbpscp=129.0 & cacp=0.5 & sexcp=0.5,0.25688073394495414
+trestbpscp=129.0 & cacp=0.5 & sexcp=0.5 & agecp=37.5,0.25688073394495414
+trestbpscp=129.0 & thalcp=1.5,0.47706422018348627
+trestbpscp=129.0 & thalcp=1.5 & agecp=37.5,0.47706422018348627
+trestbpscp=129.0 & thalcp=2.5,0.3211009174311927
+trestbpscp=129.0 & thalcp=2.5 & agecp=37.5,0.3211009174311927
+trestbpscp=129.0 & thalcp=2.5 & thalachcp=110.0,0.29357798165137616
+trestbpscp=129.0 & thalcp=2.5 & thalachcp=110.0 & agecp=37.5,0.29357798165137616
+trestbpscp=129.0 & thalcp=2.5 & thalachcp=110.0 & thalcp=1.5,0.29357798165137616
+trestbpscp=129.0 & thalcp=2.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.29357798165137616
+trestbpscp=129.0 & thalcp=2.5 & thalcp=1.5,0.3211009174311927
+trestbpscp=129.0 & thalcp=2.5 & thalcp=1.5 & agecp=37.5,0.3211009174311927
+trestbpscp=129.0 & thalcp=2.5 & oldpeakcp=0.55,0.28440366972477066
+trestbpscp=129.0 & thalcp=2.5 & oldpeakcp=0.55 & agecp=37.5,0.28440366972477066
+trestbpscp=129.0 & thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0,0.25688073394495414
+trestbpscp=129.0 & thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.25688073394495414
+trestbpscp=129.0 & thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.25688073394495414
+trestbpscp=129.0 & thalcp=2.5 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+trestbpscp=129.0 & thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5,0.28440366972477066
+trestbpscp=129.0 & thalcp=2.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+trestbpscp=129.0 & agecp=56.5,0.3944954128440367
+trestbpscp=129.0 & agecp=56.5 & agecp=37.5,0.3944954128440367
+trestbpscp=129.0 & agecp=56.5 & thalachcp=110.0,0.3302752293577982
+trestbpscp=129.0 & agecp=56.5 & thalachcp=110.0 & agecp=37.5,0.3302752293577982
+trestbpscp=129.0 & agecp=56.5 & thalachcp=110.0 & thalcp=1.5,0.3119266055045872
+trestbpscp=129.0 & agecp=56.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3119266055045872
+trestbpscp=129.0 & agecp=56.5 & cacp=0.5,0.28440366972477066
+trestbpscp=129.0 & agecp=56.5 & cacp=0.5 & agecp=37.5,0.28440366972477066
+trestbpscp=129.0 & agecp=56.5 & cacp=0.5 & thalcp=1.5,0.25688073394495414
+trestbpscp=129.0 & agecp=56.5 & cacp=0.5 & thalcp=1.5 & agecp=37.5,0.25688073394495414
+trestbpscp=129.0 & agecp=56.5 & thalcp=1.5,0.3669724770642202
+trestbpscp=129.0 & agecp=56.5 & thalcp=1.5 & agecp=37.5,0.3669724770642202
+trestbpscp=129.0 & agecp=56.5 & oldpeakcp=0.55,0.30275229357798167
+trestbpscp=129.0 & agecp=56.5 & oldpeakcp=0.55 & agecp=37.5,0.30275229357798167
+trestbpscp=129.0 & agecp=56.5 & oldpeakcp=0.55 & thalcp=1.5,0.28440366972477066
+trestbpscp=129.0 & agecp=56.5 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+trestbpscp=129.0 & agecp=56.5 & sexcp=0.5,0.26605504587155965
+trestbpscp=129.0 & agecp=56.5 & sexcp=0.5 & agecp=37.5,0.26605504587155965
+trestbpscp=129.0 & oldpeakcp=0.55,0.43119266055045874
+trestbpscp=129.0 & oldpeakcp=0.55 & agecp=37.5,0.43119266055045874
+trestbpscp=129.0 & oldpeakcp=0.55 & thalachcp=110.0,0.3577981651376147
+trestbpscp=129.0 & oldpeakcp=0.55 & thalachcp=110.0 & agecp=37.5,0.3577981651376147
+trestbpscp=129.0 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5,0.3302752293577982
+trestbpscp=129.0 & oldpeakcp=0.55 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.3302752293577982
+trestbpscp=129.0 & oldpeakcp=0.55 & thalcp=1.5,0.3853211009174312
+trestbpscp=129.0 & oldpeakcp=0.55 & thalcp=1.5 & agecp=37.5,0.3853211009174312
+trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5,0.3211009174311927
+trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & agecp=37.5,0.3211009174311927
+trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0,0.26605504587155965
+trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.26605504587155965
+trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5,0.27522935779816515
+trestbpscp=129.0 & oldpeakcp=0.55 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+trestbpscp=129.0 & cholcp=231.5,0.3486238532110092
+trestbpscp=129.0 & cholcp=231.5 & agecp=37.5,0.3486238532110092
+trestbpscp=129.0 & cholcp=231.5 & thalachcp=110.0,0.30275229357798167
+trestbpscp=129.0 & cholcp=231.5 & thalachcp=110.0 & agecp=37.5,0.30275229357798167
+trestbpscp=129.0 & cholcp=231.5 & thalachcp=110.0 & thalcp=1.5,0.27522935779816515
+trestbpscp=129.0 & cholcp=231.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.27522935779816515
+trestbpscp=129.0 & cholcp=231.5 & thalcp=1.5,0.3211009174311927
+trestbpscp=129.0 & cholcp=231.5 & thalcp=1.5 & agecp=37.5,0.3211009174311927
+trestbpscp=129.0 & cholcp=231.5 & agecp=56.5,0.25688073394495414
+trestbpscp=129.0 & cholcp=231.5 & agecp=56.5 & agecp=37.5,0.25688073394495414
+trestbpscp=129.0 & cholcp=231.5 & oldpeakcp=0.55,0.26605504587155965
+trestbpscp=129.0 & cholcp=231.5 & oldpeakcp=0.55 & agecp=37.5,0.26605504587155965
+trestbpscp=129.0 & sexcp=0.5,0.3761467889908257
+trestbpscp=129.0 & sexcp=0.5 & agecp=37.5,0.3761467889908257
+trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0,0.3211009174311927
+trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.3211009174311927
+trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.28440366972477066
+trestbpscp=129.0 & sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.28440366972477066
+trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5,0.3211009174311927
+trestbpscp=129.0 & sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.3211009174311927
+sexcp=0.5,0.8165137614678899
+sexcp=0.5 & agecp=37.5,0.7981651376146789
+sexcp=0.5 & thalachcp=110.0,0.7155963302752294
+sexcp=0.5 & thalachcp=110.0 & agecp=37.5,0.6972477064220184
+sexcp=0.5 & thalachcp=110.0 & thalcp=1.5,0.6422018348623854
+sexcp=0.5 & thalachcp=110.0 & thalcp=1.5 & agecp=37.5,0.6238532110091743
+sexcp=0.5 & thalcp=1.5,0.7247706422018348
+sexcp=0.5 & thalcp=1.5 & agecp=37.5,0.7064220183486238
